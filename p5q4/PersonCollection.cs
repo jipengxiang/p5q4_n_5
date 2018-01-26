@@ -13,24 +13,25 @@ namespace p5
     class PersonCollection
     {
 
-       // private Person[] persons; //array of Person objects
+        // private Person[] persons; //array of Person objects
         private List<Person> persons;
 
         private int current;
 
         //part 2 , Q3
-        private DBPerson db; 
-        private string dbStatus; 
+        private DBPerson db;
+        private string dbStatus;
         public int AverageAge
         {
-            get { return db.AverageAge; } 
+            get { return db.AverageAge; }
         }
 
         public PersonCollection()
         {
             current = 0;
             //persons = new Person[8];
-              persons = new List<Person>();
+            persons = new List<Person>();
+            //for testing purpose, hardcode the data
             //persons[0] = new Person("Mr A", 20, 'M');
             //persons[1] = new Person("Mr B", 30, 'M');
             //persons[2] = new Person("Miss C", 25, 'F');
@@ -113,7 +114,7 @@ namespace p5
 
         public int getTotalNoOfPersons()
         {
-           // return persons.Length;//array size
+            // return persons.Length;//array size
             return persons.Count;
         }
 
@@ -136,6 +137,6 @@ namespace p5
             }
         }
 
-        
+
     }
 }

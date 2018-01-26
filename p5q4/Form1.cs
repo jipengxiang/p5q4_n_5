@@ -18,13 +18,13 @@ namespace p5
         {
             InitializeComponent();
         }
-        
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
             pc = new PersonCollection();
-          //  lblStatus.Text = pc.DbStatus;
-         //   lblAverage.Text = pc.AverageAge.ToString();//add this
+            lblStatus.Text = pc.DbStatus;
+            lblAverage.Text = pc.AverageAge.ToString();//add this
             refreshForm();
         }
 
