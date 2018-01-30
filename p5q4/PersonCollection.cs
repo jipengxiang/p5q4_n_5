@@ -30,7 +30,7 @@ namespace p5
         {
             current = 0;
             //persons = new Person[8];
-            persons = new List<Person>();
+           // persons = new List<Person>();
             //for testing purpose, hardcode the data
             //persons[0] = new Person("Mr A", 20, 'M');
             //persons[1] = new Person("Mr B", 30, 'M');
